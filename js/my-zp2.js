@@ -88,14 +88,14 @@ $(function(){
 	
 	//相册大图左右切换
 	
-	$(".nb3 .nb3-tx .left").click(function(){
+	$(".nb3 .nb3-tx .right").click(function(){
 		p++;
 		if(p==New_l){
 			p=0;
 		}
 		$(New).eq(p).show().siblings().hide();
 	})
-	$(".nb3 .nb3-tx .right").click(function(){
+	$(".nb3 .nb3-tx .left").click(function(){
 		p--;
 		if(p<0){
 			p=New_l;
