@@ -1,0 +1,1134 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+li,ul,ol{
+	list-style-type: none;
+}
+input,textarea{
+	border: none;
+	outline: none;
+}
+.clear{
+	clear: both;
+	font-size: 0;
+	height: 0;
+	overflow: hidden;
+}
+body{
+	background: #251b10;
+	min-width: 1330px;
+	min-height: 890px;
+}
+/*背景开始*/
+.bg{
+  position: relative;
+  width: 1330px;
+  height: 890px;
+  margin: 0 auto;
+  background: url(../img/bg.png) 0 0 no-repeat;
+}
+/*背景结束*/
+
+/*左边开始*/
+.bg .left{
+	position: absolute;
+	width: 223px;
+	top: 55px;
+	left: 0;
+}
+.bg .left p{
+	width: 223px;
+	height: 102px;
+  font-size: 25px;
+  font-family: "SimSun","宋体";
+  letter-spacing: 22px;
+  color: #251b10;
+	text-align: center;
+	line-height: 102px;
+	margin-bottom: 12px;
+	background: url(../img/left.png) 0 0 no-repeat;
+}
+.bg .left .left-1{
+	font-size: 30px;
+	font-weight: bold;
+}
+.bg .left .left-2{
+	margin-bottom: 96px;
+}
+/*左边结束*/
+
+/*中间开始*/
+.bg .min{
+	position: absolute;
+	width: 82px;
+	top: 67px;
+	left: 267px;
+}
+.bg .min li{
+	width: 82px;
+	height: 82px;
+	margin-bottom: 31px;
+}
+.bg .min li.min-2{
+	margin-bottom: 117px;
+}
+.bg .min li.min-1{
+	background: url(../img/min.png) 0 0 no-repeat;
+}
+/*中间结束*/
+
+/*右边底部开始*/
+ .bg .foot{
+ 	position: absolute;
+ 	left: 315px;
+ 	bottom: 25px;
+ 	width: 949px;
+ 	text-align: center;
+ }
+ .bg .foot .foot-1{
+  	margin-bottom: 12px;
+  }
+ .bg .foot .foot-2{
+   	cursor: pointer;
+   }
+   .bg .foot img.foot-2 {
+   	display: inline;
+   	float: none;
+   }
+/*右边底部结束*/
+
+/*右边开始*/
+.bg .right{
+	position: absolute;
+	width: 954px;
+	top: 0;
+	left: 308px;
+}
+.bg .nb{
+	display: none;
+}
+/*第一卷开始*/
+.nb1{
+	padding-left: 93px;
+	padding-top: 31px;
+}
+
+/*第一头部开始*/
+.nb1 .nb1-h{
+	padding-left: 685px;
+	padding-bottom: 38px;
+}
+.nb1 .nb1-h p{
+   float: left;
+  font-size: 15px;
+  font-family: "SimSun","宋体";
+  color: #9b8b8b;
+  line-height: 17px;
+}
+.nb1 .nb1-h .t1{
+  font-size: 20px;
+  color:#260000;
+  font-weight: bold;
+  line-height: 20px;
+}
+.nb1 .nb1-h .t2{
+   padding-left: 10px;
+   padding-right: 10px;
+   line-height: 20px;
+}
+/*第一头部结束*/
+
+/*第一中间开始*/
+.nb1 .nb1-m{
+	width: 816px;
+	height: 700px;
+	background: #ffffff;
+	border: 1px solid #ded9d0;
+}
+.nb1 .nb1-m .nb1-m-h{
+	width: 816px;
+	padding-bottom: 80px;
+	text-align: center;
+}
+.nb1 .nb1-m .nb1-m-h img{
+	padding-top: 25px;
+	padding-bottom: 22px;
+	float: none;
+	display: inline;
+}
+.nb1 .nb1-m .nb1-m-h p{
+  font-size: 16px;
+  font-family: "SimSun","宋体";
+  color:#282828;
+}
+.nb1 .nb1-m .nb1-m-h .t1{
+  font-size: 25px;
+  font-family: "SimHei","黑体";
+  color:#010101;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.nb1 .nb1-m .nb1-m-m{
+	padding-bottom: 119px;
+	padding-left: 170px;
+}
+.nb1 .nb1-m .nb1-m-m p{
+  font-size: 16px;
+  font-family: "SimSun","黑体";
+  color:#000000;
+  letter-spacing: 1.3px;
+  padding-bottom: 2px;
+}
+.nb1 .nb1-m .nb1-m-f{
+	padding-left: 86px;
+}
+.nb1 .nb1-m .nb1-m-f img{
+	padding-right: 40px;
+}
+/*第一中间结束*/
+/*第一卷结束*/
+
+/*第二卷开始*/
+.nb2{
+	position: relative;
+}
+/*第二头部开始*/
+.nb2 .nb2-h{
+	padding-left: 788px;
+	padding-top: 26px;
+	padding-bottom: 13px;
+}
+.nb2 .nb2-h p{
+	display: block;
+	float: left;
+  font-size: 15px;
+  font-family: "SimSun","宋体";
+  color:#9b8b8b;
+  line-height: 17px;
+}
+.nb2 .nb2-h .t1{
+  font-size: 20px;
+  color:#4c0101;
+  font-weight: bold;
+  line-height: 20px;
+}
+.nb2 .nb2-h .t2{
+	margin-left: 10px;
+	margin-right: 10px;
+	line-height: 19px;
+}
+/*第二头部结束*/
+
+/*第二中间开始*/
+.nb2 .nb2-m{
+	width: 713px;
+	height: 532px;
+	margin-left: 150px;
+	background: url(../img/nb2.png) 0 0 no-repeat;
+}
+.nb2 .nb2-m .nb2-m-h{
+	width: 713px;
+	height: 436px;
+	overflow: hidden;
+}
+.nb2 .nb2-m .nb2-m-h div{
+	padding-top: 25px;
+	height: 136px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.nb2 .nb2-m .nb2-m-h div li{
+	float: left;
+}
+.nb2 .nb2-m .nb2-m-h .t1{
+	width: 137px;
+	text-align: center;
+  font-size: 16px;
+  font-family: "SimSun","宋体";
+  color:#251b10;
+}
+.nb2 .nb2-m .nb2-m-h .t1 .date{
+  font-size: 25px;
+  font-weight: bold;
+}
+.nb2 .nb2-m .nb2-m-h .t2{
+  font-size: 14px;
+  font-family: "SimHei","黑体";
+  color: #878787;
+	padding-left: 30px;
+}
+.nb2 .nb2-m .nb2-m-h .t2 .nr{
+	margin-bottom: 12px;
+}
+.nb2 .nb2-m .nb2-m-m img{
+	padding-left: 672px;
+	cursor: pointer;
+}
+.nb2 .nb2-m .nb2-m-f img{
+	float: left;
+	padding-top: 13px;
+	cursor: pointer;
+}
+.nb2 .nb2-m .nb2-m-f .a1{
+	padding-left: 324px;
+}
+/*第二中间结束*/
+
+/*第二中间特效开始*/
+.nb2 .nb2-m-tx{
+	position: absolute;
+	top: 0;
+	left: -308px;
+	display: none;
+}
+.nb2 .nb2-m-tx .bg{
+	width: 1320px;
+	height: 878px;
+	background: #919191;
+	opacity: 0.7;
+	filter:alpha(opacity=65);
+}
+.nb2 .nb2-m-tx textarea{
+	position: absolute;
+	top: 279px;
+	left: 227px;
+	width: 846px;
+	height: 147px;
+	border-radius: 15px;
+	background: #f3f1ea;
+	border: 1px solid #5d5b57;
+	padding: 10px;
+}
+.nb2 .nb2-m-tx img{
+	position: absolute;
+	top:226px;
+	right: 180px;
+	cursor: pointer;
+}
+.nb2 .nb2-m-tx input{
+	position: absolute;
+	top: 462px;
+	left: 927px;
+	width: 161px;
+	height: 50px;
+  font-size: 20px;
+  font-family: "SimSun","宋体";
+  color: #545454;
+  letter-spacing: 1px;
+	background: #dcd3c2;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.nb2 .nb2-m-tx input:hover{
+	font-size: 23px;
+}
+/*第二中间特效结束*/
+
+/*第二尾部开始*/
+.nb2 .nb2-f{
+	padding-top: 78px;
+	padding-left: 84px;
+}
+.nb2 .nb2-f img{
+	float: left;
+}
+.nb2 .nb2-f li{
+	float: left;
+  font-size: 12px;
+  font-family: "SimSun","宋体";
+  color: #b2b2b2;
+}
+.nb2 .nb2-f .date{
+  font-size: 14px;
+  font-family: "Microsoft YaHei","微软雅黑";
+  color:#919191;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.nb2 .nb2-f .t1 .box1{
+	margin-left: 63px;
+	margin-right: 219px;
+}
+.nb2 .nb2-f .t1 .box2{
+	margin-left: 150px;
+	margin-right: 100px;
+}
+.nb2 .nb2-f .t2 .g1{
+	margin-left: 93px;
+	margin-right: 277px;
+}
+.nb2 .nb2-f .t2 .g2{
+	margin-left: 208px;
+	margin-right: 157px;
+}
+.nb2 .nb2-f .t3 .g1{
+	margin-left: 240px;
+	margin-right: 238px;
+}
+.nb2 .nb2-f .t3 .g2{
+	margin-right: 184px;
+}
+.nb2 .nb2-f .t4 .box1{
+	margin-left: 213px;
+	margin-right: 180px;
+}
+.nb2 .nb2-f .t4 .box2{
+	margin-right: 130px;
+}
+/*第二尾部结束*/
+/*第二卷结束*/
+
+/*第三卷开始*/
+
+.nb3{
+	position: relative;
+}
+
+/*第三头部开始*/
+
+.nb3 .nb3-h{
+	padding-left: 810px;
+	padding-top: 34px;
+	padding-bottom: 46px;
+}
+.nb3 .nb3-h p{
+	float: left;
+  font-size: 15px;
+  font-family: "SimSun","宋体";
+  color:#9b8b8b;
+  line-height: 17px;
+}
+.nb3 .nb3-h .t1{
+  font-size: 20px;
+  color: #300000;
+  font-weight: bold;
+  line-height: 20px;
+}
+.nb3 .nb3-h .t2{
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 19px;
+}
+/*第三头部结束*/
+
+/*第三中间开始*/
+
+/*第三中间左开始*/
+
+.nb3 .nb3-m-l{
+	width: 97px;
+	text-align: center;
+	padding-left: 110px;
+	padding-top: 46px;
+}
+.nb3 .nb3-m-l img{
+	padding-bottom: 56px;
+	cursor: pointer;
+	float: none;
+	display: inline;
+}
+.nb3 .nb3-m-l input{
+	position: absolute;
+	top: 150px;
+	left: 122px;
+	width: 72px;
+	height: 72px;
+	opacity: 0;
+	filter:alpha(opacity=0)；
+	filter: none;
+	cursor: pointer;
+}
+.nb3 .nb3-m-l p{
+	height: 27px;
+	line-height: 27px;
+  font-size: 16px;
+  font-family: "SimSun","宋体";
+  color: #413d39;
+  font-weight: bold;
+	margin-bottom: 18px;
+	cursor: pointer;
+}
+.nb3 .nb3-m-l .t1{
+	margin-bottom: 158px;
+}
+.nb3 .nb3-m-l .tb{
+	border: 1px solid #626262;
+	border-radius: 6px;
+	height: 25px;
+	line-height: 25px;
+}
+/*第三中间左结束*/
+
+/*第三中间右开始*/
+
+.nb3 .nb3-m-r{
+	position: absolute;
+	top: 100px;
+	left: 258px;
+	width: 665px;
+	height: 704px;
+}
+.nb3 .nb3-m-r .bn{
+	display: none;
+}
+/*第三中右头部开始*/
+
+.nb3 .nb3-m-r .title{
+	padding-bottom: 14px;
+  padding-left: 41px;
+}
+.nb3 .nb3-m-r .title p{
+	float: left;
+	font-size: 16px;
+  font-family: "SimSun","宋体";
+  color: #6d1717;
+  line-height: 20px;
+}
+.nb3 .nb3-m-r .title .t1{
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 25px;
+}
+.nb3 .nb3-m-r .title .t2{
+	font-size: 20px;
+	margin-left: 14px;
+	margin-right: 14px;
+	line-height: 24px;
+}
+/*第三中右头部结束*/
+
+/*第三中右中间开始*/
+.nb3 .nb3-m-r .tpn{
+	width: 665px;
+	height: 668px;
+	background: url(../img/nb3-1.png) 0 0 no-repeat;
+}
+.nb3 .nb3-m-r .tpn .tpn-t{
+	padding-top: 73px;
+	padding-left: 40px;
+}
+.nb3 .nb3-m-r .tpn .tpn-t img{
+	margin-bottom: 100px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.nb3 .nb3-m-r .tpn .tpn-t img:hover{
+	/*width: 190px;
+	height: 190px;
+	margin-bottom: 90px;
+	margin-right: 10px;*/
+	box-shadow: 1px 1px 15px 1px #000000;
+	border-radius: 15px;
+}
+.nb3 .nb3-m-r .tpn .tpn-t .t1{
+	margin-bottom: 82px;
+}
+.nb3 .nb3-m-r .tpn p{
+  font-size: 16px;
+  font-family: "SimSun","宋体";
+  color: #000000;
+  text-decoration: underline;
+  cursor: pointer;
+	padding-left: 556px;
+}
+/*第三中右中间结束*/
+
+/*第三中间图片放大效果开始*/
+
+.nb3 .nb3-m-r .nb3-tx{
+	position: absolute;
+	top: -100px;
+	left: -568px;
+	display: none;
+}
+.nb3 .nb3-tx .bg{
+	width: 1322px;
+	height: 880px;
+	background: #000000;
+	opacity: 0.65;
+	filter:alpha(opacity=65);
+}
+.nb3 .nb3-tx .left{
+	position: absolute;
+	top: 382px;
+	left: 204px;
+	width: 43px;
+	cursor: pointer;
+}
+.nb3 .nb3-tx .right{
+	position: absolute;
+	top: 382px;
+	left: 1078px;
+	width: 43px;
+	cursor: pointer;
+}
+.nb3 .nb3-tx .min{
+	position: absolute;
+	top: 10px;
+	left: 300px;
+	width: 723px;
+	height: 860px;
+}
+.nb3 .nb3-tx .min img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: none;
+	float: none;
+	margin: auto;
+}
+/*第三中间图片放大效果结束*/
+
+/*第三中间右结束*/
+/*第三中间结束*/
+/*第三卷结束*/
+
+/*第四卷开始*/
+
+/*第四头部开始*/
+.nb4 .nb4-h{
+	padding-top: 35px;
+	padding-left: 128px;
+	padding-bottom: 17px;
+}
+.nb4 .nb4-h p{
+	float: left;
+	font-size: 15px;
+  font-family: "SimSun","宋体";
+  color: #9b8b8b;
+  line-height: 18px;
+}
+.nb4 .nb4-h .t1{
+	font-size: 20px;
+	color: #4c0101;
+	font-weight: bold;
+	line-height: 20px;
+}
+.nb4 .nb4-h .t2{
+	margin-left: 10px;
+	margin-right: 10px;
+	line-height: 19px;
+}
+/*第四头部结束*/
+
+/*第四中间开始*/
+.nb4 .nb4-m{
+	position: relative;
+}
+
+/*第四中左边开始*/
+.nb4 .nb4-m .nb4-m-l{
+		float: left;
+	width: 56px;
+	margin-top:164px;
+	margin-left:92px;
+	text-align: center;
+}
+.nb4 .nb4-m .nb4-m-l img{
+	display: block;
+	float: left;
+	cursor: pointer;
+}
+.nb4 .nb4-m .nb4-m-l .t1{
+	padding-left: 13px;
+	padding-bottom: 41px;
+}
+.nb4 .nb4-m .nb4-m-l .t2{
+	padding-left: 13px;
+	padding-top: 41PX;
+}
+
+/*第四中左边结束*/
+
+/*第四中右边开始*/
+
+.nb4 .nb4-m .nb4-m-r{
+	float: left;
+	padding-left: 38px;
+}
+.nb4 .nb4-m .nb4-m-r ul{
+	display: block;
+	float: left;
+	padding-right: 48px;
+	width: 322px;
+	height: 205px;
+	overflow: hidden;
+	cursor: pointer;
+	background: url(../img/nb4-3.png) 0 0 no-repeat;
+}
+.nb4 .nb4-m .nb4-m-r ul li{
+	display: block;
+	float: left;
+	padding-left: 18px;
+	padding-top: 20px;
+}
+.nb4 .nb4-m .nb4-m-r .box1{
+	padding-top: 16px;
+}
+.nb4 .nb4-m .nb4-m-r .box1 span,img{
+	display: block;
+	float: left;
+}
+.nb4 .nb4-m .nb4-m-r .box1 span{
+	margin-left: 15px;
+}
+.nb4 .nb4-m .nb4-m-r .box1 span p{
+	float: left;
+}
+.nb4 .nb4-m .nb4-m-r .box1 .t1{
+  font-size: 13px;
+  font-family: "SimSun","宋体";
+  color:#959595;
+  line-height: 19px;
+  padding-top: 6px;
+  padding-bottom: 8px;
+}
+.nb4 .nb4-m .nb4-m-r .box1 .t1 .t1-1{
+  font-size: 19px;
+  font-family: "SimHei","黑体";
+  color: #00030c;
+  font-weight: bold;
+  line-height: 19px;
+}
+.nb4 .nb4-m .nb4-m-r .box1 .t1 .t1-2{
+	margin-left: 2px;
+	margin-right: 2px;
+	font-size: 15px;
+	color: #444444;
+}
+.nb4 .nb4-m .nb4-m-r .box1 .t1 .t1-3{
+	letter-spacing: -1px;
+}
+.nb4 .nb4-m .nb4-m-r .box1 .t2{
+  font-size: 15px;
+  font-family: "SimHei","黑体";
+  color:#3c1f1f;
+  line-height: 13px;
+}
+.nb4 .nb4-m .nb4-m-r .box1 .t2 .t2-1{
+	color: #858484;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+.nb4 .nb4-m .nb4-m-r .box1 .t3{
+  font-size: 13px;
+  font-family: "SimHei","黑体";
+  color: #797979;
+  padding-bottom: 4px;
+}
+.nb4 .nb4-m .nb4-m-r .box1 .t3 .t3-1{
+	color: #bebebe;
+	letter-spacing: -0.1px;
+}
+.nb4 .nb4-m .nb4-m-r .box2 p{
+	float: left;
+  font-size: 13px;
+  font-family: "SimSun","宋体";
+  color: #bebebe;
+  letter-spacing: -1px;
+}
+.nb4 .nb4-m .nb4-m-r .box2 .t1{
+	font-size: 15px;
+	color: #777777;
+}
+.nb4 .nb4-m .nb4-m-r .box2 .t2{
+	margin-left: 7px;
+	margin-right: 7px;
+  font-family: "SimHei","黑体";
+  color: #a0a0a0;
+}
+/*第四中右边结束*/
+/*第四中间结束*/
+/*第四卷结束*/
+
+/*第五卷开始*/
+
+/*第五卷中头部开始*/
+.nb5 .nb5-h{
+	padding-left: 776px;
+	padding-top: 37px;
+}
+.nb5 .nb5-h p{
+	float: left;
+  font-size: 15px;
+  font-family: "SimSun","宋体";
+  color:#9b8b8b;
+  line-height: 18px;
+}
+.nb5 .nb5-h .t1{
+  font-size: 20px;
+  color: #4c0101;
+  line-height: 20px;
+  font-weight: bold;
+}
+.nb5 .nb5-h .t2{
+	margin-left: 10px;
+	margin-right: 10px;
+	line-height: 20px;
+}
+/*第五卷中头部结束*/
+
+/*第五中中间开始*/
+.nb5 .nb5-m{
+	margin-top: 37px;
+}
+
+/*第一部分开始*/
+.nb5 .nb5-m .nb5-m-1{
+	margin-left: 119px;
+}
+.nb5 .nb5-m .nb5-m-1 .header{
+	margin-bottom: 40px;
+}
+.nb5 .nb5-m .nb5-m-1 .header p{
+	float: left;
+  font-size: 20px;
+  font-family: "SimSun","宋体";
+  color:#a9a5a5;
+  font-weight: bold;
+  line-height: 24px;
+}
+.nb5 .nb5-m .nb5-m-1 .header .t1{
+	font-size: 25px;
+	color: #240202;
+	line-height: 25px;
+}
+.nb5 .nb5-m .nb5-m-1 .header .t2{
+	margin-left: 7px;
+	margin-right: 10px;
+}
+.nb5 .nb5-m .nb5-m-1 .footer{
+	height: 290px;
+}
+.nb5 .nb5-m .nb5-m-1 .footer img{
+	margin-right: 38px;
+}
+
+/*第一部分结束*/
+
+/*第二部分开始*/
+
+.nb5 .nb5-m .nb5-m-2{
+	margin-left: 99px;
+}
+.nb5 .nb5-m .nb5-m-2 .header{
+	width: 824px;
+	height: 32px;
+	border-bottom: 1px solid #989898;
+}
+.nb5 .nb5-m .nb5-m-2 .header p{
+	float: left;
+	margin-left: 17px;
+  font-size: 20px;
+  font-family: "SimSun","宋体";
+  color: #a9a5a5;
+  font-weight: bold;
+}
+.nb5 .nb5-m .nb5-m-2 .header .t1{
+	font-size: 25px;
+	color: #240202;
+}
+.nb5 .nb5-m .nb5-m-2 .header .t2{
+	margin-left: 11px;
+	margin-right: 11px;
+	line-height: 28px;
+}
+.nb5 .nb5-m .nb5-m-2 .header .t3{
+	margin-left: 0;
+	letter-spacing: -2px;
+	line-height: 28px;
+}
+.nb5 .nb5-m .nb5-m-2 .header .t4{
+	margin-left: 519px;
+  font-size: 13px;
+  font-family: "Microsoft YaHei","微软雅黑";
+  color: #272727;
+  font-weight: normal;
+  line-height: 48px;
+  cursor: pointer;
+}
+.nb5 .nb5-m .nb5-m-2 .footer{
+	margin-top: 24px;
+	margin-left: 18px;
+}
+.nb5 .nb5-m .nb5-m-2 .footer ul{
+	width: 235px;
+	height: 243px;
+	background: url(../img/nb5-3.png) 0 0 no-repeat;
+	background-size: 235px 243px;
+}
+.nb5 .nb5-m .nb5-m-2 .footer ul ol{
+	padding-top: 19px;
+	padding-left: 18px;
+}
+.nb5 .nb5-m .nb5-m-2 .footer ul ol img{
+	float: none;
+}
+.nb5 .nb5-m .nb5-m-2 .footer ul ol li p{
+	float: left;
+
+}
+.nb5 .nb5-m .nb5-m-2 .footer ul ol li{
+	display: block;
+  font-size: 13px;
+  font-family: "SimHei","黑体";
+  color:#b8b8b8;
+}
+.nb5 .nb5-m .nb5-m-2 .footer ul ol .t1{
+	margin-top: 22px;
+}
+.nb5 .nb5-m .nb5-m-2 .footer ul ol .t1 .t1-1{
+  font-size: 15px;
+  	color: #3b3b3b;
+}
+.nb5 .nb5-m .nb5-m-2 .footer ul ol .t1 .t1-2{
+  font-size: 14px;
+  font-family: "SimSun","宋体";
+  	color: #3b3b3b;
+  	line-height: 19px;
+  	padding-left: 10px;
+}
+.nb5 .nb5-m .nb5-m-2 .footer ul ol .t3{
+	line-height: 8px;
+}
+.nb5 .nb5-m .nb5-m-2 .footer ul ol .t4{
+	margin-top: 27px;
+  font-size: 14px;
+  font-family: "SimSun","宋体";
+  color:#3b3b3b;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+.nb5 .nb5-m .nb5-m-2 .footer ul ol .t5{
+	line-height: 9px;
+	letter-spacing: -1px;
+}
+/*第二部分结束*/
+/*第五中中间结束*/
+/*第五卷结束*/
+
+/*第六卷开始*/
+
+ /*第六中头部开始*/
+
+.nb6 .nb6-h{
+	padding-left: 118px;
+	padding-top: 23px;
+}
+.nb6 .nb6-h p{
+	float: left;
+  font-family: "SimSun","宋体";
+  color: #9b8b8b;
+  font-size: 15px;
+  line-height: 19px;
+}
+.nb6 .nb6-h .t1{
+	font-size: 20px;
+	color: #4c0101;
+	font-weight: bold;
+	line-height: 20px;
+}
+.nb6 .nb6-h .t2{
+	margin-left: 7px;
+	margin-right: 7px;
+	line-height: 21px;
+}
+/*第六中头部结束*/
+
+/*第六中中间开始*/
+
+.nb6 .nb6-m{
+padding-left: 104px;
+padding-top: 17px;
+}
+
+/*第六中间左边开始*/
+
+.nb6 .nb6-m .nb6-m-l{
+	float: left;
+	width: 611px;
+	height: 487px;
+	background: url(../img/nb6.png) 0 0 no-repeat;
+}
+/*第六中间左边头部开始*/
+.nb6 .nb6-m .nb6-m-l .header{
+	height: 417px;
+	padding-top: 27px;
+	padding-left: 30px;
+	overflow: hidden;
+}
+.nb6 .nb6-m .nb6-m-l .header ul{
+	position: relative;
+	height: 142px;
+}
+.nb6 .nb6-m .nb6-m-l .header ul img{
+	float: none;
+	display: inline;
+}
+.nb6 .nb6-m .nb6-m-l .header ul .fk{
+	width: 55px;
+	text-align: center;
+}
+.nb6 .nb6-m .nb6-m-l .header ul .fk input{
+	width: 55px;
+	height: 20px;
+	background: #f5f5f5;
+	border: 1px solid #c4c4c4;
+	border-radius: 5px;
+	margin-top: 9px;
+	cursor: pointer;
+	color: #a4a4a4;
+}
+.nb6 .nb6-m .nb6-m-l .header ul .mg{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 489px;
+	height: 142px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.nb6 .nb6-m .nb6-m-l .header ul .mg .who p{
+  float: left;
+  font-size: 13px;
+  font-family: "SimHei","黑体";
+  color: #9e9e9e;
+  line-height: 17px;
+}
+.nb6 .nb6-m .nb6-m-l .header ul .mg .who .t1{
+  font-size: 16px;
+  font-family: "SimSun","宋体";
+  color: #000000;
+  font-weight: bold;
+  margin-right: 13px;
+  line-height: 16px;
+}
+.nb6 .nb6-m .nb6-m-l .header ul .mg .who .t2{
+	margin-right: 7px;
+	margin-left: 4px;
+}
+.nb6 .nb6-m .nb6-m-l .header ul .mg .wm{
+	display: block;
+	padding-top: 22px;
+  font-size: 13px;
+  font-family: "SimSun","宋体";
+  color: #7d7b7b;
+  letter-spacing: -0.5px;
+}
+.nb6 .nb6-m .nb6-m-l .header ul .mg .wm .t1{
+	font-size: 15px;
+	color: #000000;
+	line-height: 11px;
+	letter-spacing: 0px;
+}
+/*第六中间左边头部结束*/
+
+/*第六中间左边尾部开始*/
+
+.nb6 .nb6-m .nb6-m-l .footer{
+	width: 611px;
+	padding-top: 7px;
+	text-align: center;
+}
+.nb6 .nb6-m .nb6-m-l .footer img{
+	display: inline;
+	float: none;
+	cursor: pointer;
+}
+/*第六中间左边尾部结束*/
+/*第六中间左边结束*/
+
+/*第六中间右边开始*/
+
+.nb6 .nb6-m .nb6-m-r{
+	float: left;
+	margin-left: 53px;
+	width: 153px;
+	height: 487px;
+	background: #f4efe5;
+	border-radius: 10px;
+}
+
+/*第六中右边上部分开始*/
+.nb6 .nb6-m .nb6-m-r .top{
+	height: 80px;
+	border-bottom: 1px solid #bfbfbf;
+}
+.nb6 .nb6-m .nb6-m-r span{
+	display: block;
+}
+.nb6 .nb6-m .nb6-m-r img{
+	margin-right: 7px;
+}
+.nb6 .nb6-m .nb6-m-r .top span{
+	padding-left: 11px;
+	padding-top: 13px;
+}
+/*第六中右边上部分结束*/
+
+/*第六中右边下部分开始*/
+.nb6 .nb6-m .nb6-m-r .dw{
+	margin-left: 11px;
+	margin-top: 9px;
+}
+/*第六中右边下部分结束*/
+/*第六中间右边结束*/
+/*第六中中间结束*/
+
+/*第六中尾部开始*/
+.nb6 .nb6-f{
+	position: relative;
+	margin-top: 34px;
+	margin-left: 104px;
+}
+.nb6 .nb6-f textarea{
+	width: 807px;
+	height: 128px;
+	background: #FFFFFF;
+	border: 1px solid #707070;
+	border-radius: 20px;
+	font-size: 13px;
+	padding: 10px 10px 0 10px;
+}
+.nb6 .nb6-f .bt{
+	margin-left: 670px;
+	width: 149px;
+	height: 39px;
+	border-radius: 10px;
+	text-align: center;
+	background: #fbf8f6;
+}
+.nb6 .nb6-f .bt p{
+	display: inline;
+	float: left;
+  font-size: 13px;
+  font-family: "SimHei","黑体";
+  color: #9a9a9a;
+  font-weight: bold;
+  line-height: 39px;
+}
+.nb6 .nb6-f .bt .t1{
+  font-size: 16px;
+  color: #090909;
+  margin-left: 35px;
+}
+.nb6 .nb6-f .bt .t2{
+	margin-left: 1px;
+	margin-right: 1px;
+}
+.nb6 .nb6-f input{
+	position: absolute;
+	top: 143px;
+	left: 670px;
+	width: 149px;
+	height: 39px;
+	background: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+/*第六中尾部结束*/
+/*第六卷结束*/
+/*右边结束*/
